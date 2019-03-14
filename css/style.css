@@ -1,0 +1,16 @@
+body
+{
+    color:#FFF ; 
+}
+#success_message{ display: none;}
+legend
+{
+    border-bottom: none;
+    color:#f00 ; 
+}
+fieldset
+{
+ margin-top: 86px; 
+}
+
+

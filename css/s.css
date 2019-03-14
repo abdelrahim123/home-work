@@ -1,0 +1,306 @@
+body
+{
+    line-height: 1.7;
+    font-weight: 300;
+    font-size: 16px;
+    direction: rtl;
+    background-color:#f6f7fd;
+}
+.myBrandPage
+{
+    font-family:'Pacifico';
+    text-transform: uppercase
+}
+a
+{
+  color: #FFCD00;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+  a:hover, a:active, a:focus {
+    color: #FFCD00;
+    outline: none;
+    text-decoration: none; 
+}
+p
+{
+  margin-bottom: 20px; 
+}
+/******************** navBar**************************************/
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #FFCD00;   
+    background-color:transparent;
+}
+.navbar-default .navbar-nav > li > a.styl
+{
+    font-size: 23px;
+    padding: 30px 12px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    color:#FFF;
+    text-transform: capitalize
+}
+.navbar-default .navbar-nav > li > a.styl:hover , .navbar-default .navbar-nav > li > a.reg:hover
+{
+    color: #f82249;
+    border-bottom: 1px solid #f82249
+}
+.navbar-default .navbar-brand
+{
+    color: #f82249 ;
+    padding: 25px 12px ;
+    font-size: 30px ;
+    font-weight: bold ; 
+}
+.navbar-default .navbar-nav > li > a.reg
+
+{
+    font-size: 16px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    color: #FFF ;
+    text-transform: capitalize;
+    margin-top: 10px;       
+}  
+
+/*******************************endNavBar*********************************/
+
+.jain-container .abs
+{
+    position: absolute;
+    top:30px ;
+    background-color: transparent;
+    border: none;
+}
+.imagesSlider
+{
+    width:100%;
+}
+.sm
+{
+    font-size:16px;
+    letter-spacing: 20px;
+    color: #777;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+h2 span
+{
+    display: block;
+    margin-bottom: 0;
+    line-height: 60px;
+}
+h2 span.thin
+{
+    font-size: 40px;
+}
+h2 span.thick
+{
+    font-weight: 700 ; 
+    font-size: 40px;
+    
+}
+.ourDoneProjects
+{
+    margin-top:70px;
+    margin-bottom:70px;
+}
+.ourDoneProjectsImage
+{
+    width: 100% ; 
+    height:500px;
+}
+/*********************Projects********************/
+
+/* Preloader */
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 99;
+  /* makes sure it stays on top */
+}
+
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+ background-image: url(../images/preloader.gif);
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+  /* is width and height divided by two */
+}
+.sprakerImages
+{
+    width:100% ; 
+    height:100% ; 
+}
+.reg
+{
+    margin-right: 10px;
+}
+.Speakers
+{
+    margin-bottom:20px;
+}
+.ourProjects h1,.mySpeakerDiv p
+{
+    text-align: center
+
+}
+
+.ourProjects p
+{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #9195a2;
+}
+.ourProjects hr
+{
+    width:60px ; 
+    height:5px ;
+    background:#f82249;
+}
+.myShudel
+{
+    padding:20px;
+    margin-top:10px; 
+}
+.myShudelServices
+{
+    padding: 100px;
+    background-color: #FFF ;
+
+}
+/***********************ContactUS***************************/
+.contactUS
+{
+    margin-top: 50px;
+    background-color: #FFF ; 
+}
+.contactUS h3 , .contactUS p 
+{
+    text-align: center
+}
+.ourCalling
+{
+    border-right: 1px solid #333 ; 
+}
+.ourCalling p ,.last p
+{
+    color:#00f ; 
+    opacity: .6;
+}
+form
+{
+    margin-bottom: 20px; 
+}
+#nameInput
+{
+    width:48%;
+    margin-bottom:13px ; 
+    padding: 10px; 
+}
+#subjectInput
+{
+    width: 96%;
+    margin-bottom: 13px ; 
+    padding: 10px; 
+}
+textarea
+{
+    width:94%;
+    height:150px;
+    margin-bottom: 13px;
+    margin-left:15px;
+    padding: 10px;
+}
+.submitInput
+{
+    width: 150px;
+}
+footer
+{
+    padding: 10px;
+    background-color: #000;
+    color: #FFF;
+}
+.navbar-default
+{
+    margin-bottom: 15px;
+}
+.myCarouselServices
+{
+    background-color:deepskyblue;
+    background-size: 100% 100%; 
+    height: 500px;
+    position: relative; 
+}
+.myServicesh1
+{
+    color: #FFF ;
+    position: absolute ; 
+    top:50% ; 
+    left:50% ; 
+    transform:translate(-50%,-50%);
+    font-size: 100px ; 
+    font-weight: bold;
+}
+.xButton
+{
+    font-size: 25px ; 
+}
+.testimonials
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.testimonials h1
+{
+    padding-bottom: 20px;
+}
+
+.testimonials .lead
+{
+    line-height: 2em ;  
+}
+.carousel-indicators {
+    bottom: -10px;
+}
+.carousel-indicators li
+{
+    border:1px solid #F00;
+}
+textarea
+{
+    width: 100% ;   
+}
+.thumbnail img
+{
+    height:250px;
+    width: 100%;
+}
+
+
+
+
+
+
